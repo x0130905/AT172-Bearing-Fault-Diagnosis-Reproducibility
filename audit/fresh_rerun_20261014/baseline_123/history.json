@@ -1,0 +1,100 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.4010075389791288,
+    "cross_entropy": 1.4010075389791288,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.125
+  },
+  {
+    "epoch": 2,
+    "loss": 1.3224766799486132,
+    "cross_entropy": 1.3224766799486132,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.3165217391304348
+  },
+  {
+    "epoch": 3,
+    "loss": 1.2890276497816457,
+    "cross_entropy": 1.2890276497816457,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.3519833220644579
+  },
+  {
+    "epoch": 4,
+    "loss": 1.237263602155922,
+    "cross_entropy": 1.237263602155922,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.8785805245627536
+  },
+  {
+    "epoch": 5,
+    "loss": 1.2192187238690666,
+    "cross_entropy": 1.2192187238690666,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.9874921826141339
+  },
+  {
+    "epoch": 6,
+    "loss": 1.1441025614138982,
+    "cross_entropy": 1.1441025614138982,
+    "regularizer": 0.0,
+    "validation_macro_f1": 1.0
+  },
+  {
+    "epoch": 7,
+    "loss": 1.1285596109706497,
+    "cross_entropy": 1.1285596109706497,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.9717857282808887
+  },
+  {
+    "epoch": 8,
+    "loss": 1.0521618067170861,
+    "cross_entropy": 1.0521618067170861,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.885128205128205
+  },
+  {
+    "epoch": 9,
+    "loss": 1.0245868797873805,
+    "cross_entropy": 1.0245868797873805,
+    "regularizer": 0.0,
+    "validation_macro_f1": 1.0
+  },
+  {
+    "epoch": 10,
+    "loss": 0.9807847983725413,
+    "cross_entropy": 0.9807847983725413,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.9749373433583961
+  },
+  {
+    "epoch": 11,
+    "loss": 0.9208034624240924,
+    "cross_entropy": 0.9208034624240924,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.7406559877955758
+  },
+  {
+    "epoch": 12,
+    "loss": 0.8986001013787994,
+    "cross_entropy": 0.8986001013787994,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6735368562425745
+  },
+  {
+    "epoch": 13,
+    "loss": 0.8713934577721508,
+    "cross_entropy": 0.8713934577721508,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.9937490232848882
+  },
+  {
+    "epoch": 14,
+    "loss": 0.7871817960987445,
+    "cross_entropy": 0.7871817960987445,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.9780830495871002
+  }
+]

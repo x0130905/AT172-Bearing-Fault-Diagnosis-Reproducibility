@@ -45,7 +45,7 @@ def metric_from_predictions(path: Path):
 def write_csv(path, rows, fieldnames):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fieldnames)
+        writer = csv.DictWriter(stream, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 
@@ -142,7 +142,9 @@ def main():
         ],
         "table_iv": table_iv,
     }
-    (out / "verification_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (out / "verification_summary.json").write_text(
+        json.dumps(summary, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
     print(json.dumps(summary, indent=2))
 
 

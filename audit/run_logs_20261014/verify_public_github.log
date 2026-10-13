@@ -1,0 +1,13 @@
+{
+  "repository_url": "https://github.com/x0130905/AT172-Bearing-Fault-Diagnosis-Reproducibility",
+  "pinned_commit": "dbbd2744aeb44b7afd4b9fca4a62c9a7cef57fe8",
+  "repo_page_http": 200,
+  "repo_api_http": 200,
+  "commit_api_http": 200,
+  "readme_api_http": 200,
+  "private": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "readme_contains_public_url": true,
+  "pass": true
+}

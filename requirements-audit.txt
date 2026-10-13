@@ -1,0 +1,6 @@
+numpy==2.5.3
+scipy==1.18.1
+pillow==12.3.0
+
+# Controlled 2026-10-14 verification environment.
+# Historical training versions remain UNKNOWN.

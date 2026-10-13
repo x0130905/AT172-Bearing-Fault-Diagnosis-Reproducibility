@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<workspace>\AT172_REPRO_AUDIT_20261014_WORK\verify_document_claims.py", line 10, in <module>
+    from docx import Document
+ModuleNotFoundError: No module named 'docx'

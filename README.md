@@ -15,7 +15,13 @@ This archive supports two distinct activities:
 1. **Artifact verification** recomputes metrics and paper tables from the retained prediction arrays, histories, checkpoints, manifests, and configuration. This path verifies the published numerical claims without retraining.
 2. **Fresh rerun** downloads or reads the official CWRU MAT files and retrains all four methods and five seeds in a new environment. A fresh rerun is a new execution, not proof of the unknown historical software environment.
 
+Hash verification establishes artifact integrity, while predictive correctness and numerical reproducibility are assessed separately through the provided evaluation scripts and audit records.
+
+`SHA256SUMS.txt` is generated from LF-normalized release files. `.gitattributes` fixes text files to LF so the manifest is stable between the repository and release archive. The checksum manifest intentionally excludes itself, Git metadata, and Python cache files.
+
 The original CWRU recordings are not redistributed. Historical Python and package versions were not logged and are therefore **UNKNOWN**. `requirements.txt` and `environment_report.json` describe the environment used for the fresh rerun performed during this audit.
+
+For the 2026-10-14 independent rerun, `audit/environment_verification_20261014.json`, `environment-audit.yml`, and `requirements-audit.txt` record the separately controlled verification environment. These files do not replace or infer the unknown historical environment.
 
 ## Protocol
 
@@ -137,6 +143,8 @@ The retained unseen 3-hp results use five predeclared seeds and sample standard 
 
 `python reproduce.py verify-artifacts` recomputes the per-run metrics and Tables II-V from the retained artifacts. It is an artifact-verification path, not a replacement for retraining. A full fresh rerun requires the official MAT files and an empty output directory.
 
+The completed 2026-10-14 fresh rerun is retained under `audit/fresh_rerun_20261014/`. It contains all 20 method-seed runs, `all_runs.json`, the window manifest, and run metadata, but no raw CWRU recordings. `audit/fresh_rerun_comparison_summary.json` and `audit/fresh_rerun_comparison_by_run.csv` compare that rerun with the retained artifacts. Labels, predictions, and recorded metrics matched for all 20 runs; the maximum absolute probability difference was approximately `9.99e-16`. Execution logs and exit-status records are under `audit/run_logs_20261014/`.
+
 ## Important random-order note
 
 All methods use identical seed-specific initial parameters. ERM, CORAL, and linear MMD also use identical source permutations. In the retained implementation, Mixup uses the same seeded generator for source permutations and its additional Beta/interpolation draws; these extra draws change later source permutations. The package preserves this behavior so the retained experiment can be reproduced exactly.
@@ -150,16 +158,18 @@ All methods use identical seed-specific initial parameters. ERM, CORAL, and line
 - `analysis/`: metric, statistical, and table reconstruction.
 - `figures/`, `tables/`: retained and regenerated presentation artifacts.
 - `tests/`: automated integrity, isolation, parameter, gradient, and metric tests.
-- `audit/`: inventory, numerical verification, environment record, and unresolved limitations.
+- `audit/`: inventory, numerical verification, controlled-environment record, full 20-run audit rerun, execution logs, and unresolved limitations.
 
 ## Provenance and limits
 
 - The retained checkpoints and predictions are directly verifiable against the supplied hashes.
 - The exact historical interpreter, NumPy/SciPy versions, BLAS build, CPU thread settings, and dependency lock file are **UNKNOWN**.
-- The audit fresh rerun was performed with CPython 3.12, NumPy 2.5.3, SciPy 1.18.1, and Pillow 12.3.0. The captured software and hardware disclosure is in `audit/environment_report.json`.
+- The audit fresh rerun was performed with CPython 3.12, NumPy 2.5.3, SciPy 1.18.1, and Pillow 12.3.0. The captured software and hardware disclosure is in `audit/environment_verification_20261014.json`; the earlier `audit/environment_report.json` remains as a separate pre-release audit record.
 - The audit fresh rerun is recorded separately from artifact verification and must not be interpreted as recovery of the unknown historical environment.
 - The evaluation covers one laboratory dataset, one seeded-fault diameter, four closed-set classes, one sensor channel, one held-out load, and five random seeds. It does not establish industrial field reliability or a universal ranking of domain-generalization methods.
+- Reproducing the reported protocol requires the exact official files listed in `data_manifests/dataset_manifest.csv`, successful hash verification, the fixed configuration, and all five declared seeds. Artifact verification alone is not a substitute for retraining.
+- This controlled CWRU result does not validate latency, energy use, streaming behavior, open-set faults, sensor degradation, cross-machine transfer, or safety-critical industrial deployment.
 
 ## License and redistribution boundaries
 
-The existing `LICENSE` applies only to original AT172 code and documentation. It does not license the CWRU dataset, third-party packages, conference templates, or cited publications. Raw CWRU recordings are deliberately excluded. Model checkpoints and prediction artifacts are retained for verification; users remain responsible for reviewing the official dataset terms before redistributing derived materials.
+The existing `LICENSE` applies only to original AT172 code and documentation for which the author holds the necessary rights. It does not license the CWRU dataset, third-party software or packages, model or publication templates, cited publications, or other third-party materials. Raw CWRU recordings are deliberately excluded. Model checkpoints and prediction artifacts are retained for verification; users remain responsible for reviewing the official dataset terms and applicable rights before redistribution.

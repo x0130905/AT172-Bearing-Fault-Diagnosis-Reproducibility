@@ -1,0 +1,11 @@
+{
+  "command": [
+    "<workspace>\\output\\AT172_Reproducibility_Final\\.venv\\Scripts\\python.exe",
+    "<workspace>\\AT172_REPRO_AUDIT_20261014_WORK\\verify_original_archive.py",
+    "<workspace>\\AT172_GITHUB_FINAL\\AT172_GitHub_Reproducibility_Repository.zip"
+  ],
+  "started_utc": "2026-10-13T16:23:36.545791+00:00",
+  "ended_utc": "2026-10-13T16:23:37.342813+00:00",
+  "duration_seconds": 0.797022,
+  "exit_code": 1
+}

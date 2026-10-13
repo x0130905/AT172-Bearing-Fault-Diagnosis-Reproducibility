@@ -1,0 +1,22 @@
+{
+  "scope": "Checksum audit of the public-repository archive and the corrected local release candidate",
+  "original_public_archive_manifest": {
+    "status": "FAIL",
+    "entries": 126,
+    "failures": 21,
+    "failure_class": "text files changed from CRLF to LF by Git archive normalization",
+    "binary_or_scientific_artifact_failures": 0,
+    "public_repository_fix_pushed": false
+  },
+  "corrected_local_release_candidate": {
+    "status": "PASS",
+    "entries": 241,
+    "failures": 0,
+    "controls": [
+      ".gitattributes",
+      "regenerated SHA256SUMS.txt",
+      "audit/verify_sha256sums.py"
+    ]
+  },
+  "interpretation": "The original failure affects manifest integrity for normalized text files. It does not indicate a model, prediction, checkpoint, or raw-data hash mismatch."
+}

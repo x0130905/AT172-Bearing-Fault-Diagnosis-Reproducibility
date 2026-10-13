@@ -1,0 +1,113 @@
+{
+  "zip_crc_failure": null,
+  "checksum_entries": 126,
+  "checksum_failures": [
+    {
+      "path": ".gitignore",
+      "expected": "eb7744b9da4dc4d7fcf8c27ade4914af982969ef7b1abffbca7ce3ef998e48f5",
+      "actual": "75fe9f89aa403e34bfaf8c66377ade3a9afe9caecb82ea6cd1bd1bb57eaaf680"
+    },
+    {
+      "path": "analysis/make_figures.py",
+      "expected": "946eee02b0fc8141d9427ecec26b3c64ee35188e9d707fac010243773b2095e9",
+      "actual": "a081f5d4bd73605ee6fa29d83aff615f460515922e4240b0d59dac0df6a9839a"
+    },
+    {
+      "path": "analysis/recompute_metrics.py",
+      "expected": "44d185e3815dcc45b708324035e1df38597b160f562904217a24f4711c6ef279",
+      "actual": "c01843edfad35bfa3f2525ddac389696a7a873dd92184d8f47aa1700c0f3e3f3"
+    },
+    {
+      "path": "analysis/statistical_tests.py",
+      "expected": "7ec371b9bcd63d01eb28e1772712367ba4ca2ef2500d559e0328eeb23261fa69",
+      "actual": "cf6ad3d821f52b1b70116ebc9b384d958e618b7f10ab601f515f35b6358fec1b"
+    },
+    {
+      "path": "audit/capture_environment.py",
+      "expected": "90d750715bb6af927265c2751a6d7684cef5bd0eaf414dacc622d09baeaf1834",
+      "actual": "354f4fa185df7750a53d2f7c3ce48e0e92d2d2b9bdd7fbb351638324714c7389"
+    },
+    {
+      "path": "audit/reproducibility_audit.md",
+      "expected": "49a72d357d6b539aa1c32f11ac4b6f89792abcf6767fb94bb7d7a6a8f0f636b4",
+      "actual": "6985e1d0831dc8421d0db0b6f6f522ff27d082a298d44e745dbf5f9ccf83d3fc"
+    },
+    {
+      "path": "audit/statistical_validation.md",
+      "expected": "0699d82acd0523d4d3ba8e7c6e5e9e12d1cf21a400f6973a1f5bbd300f0d1b1c",
+      "actual": "9576ce3561e2b6caea5829ef6d1525899d27a8e18ee3e74cf903d56736efad7c"
+    },
+    {
+      "path": "audit/test_summary.json",
+      "expected": "af4cfd36629b48636ebd1c5f7fb81cd5ecfecdd9816c270c5dd849588ca25c18",
+      "actual": "3e3b6c50df4a31db63c7f7f9ef3af869a28aafbd57beebadfe42e340f4022877"
+    },
+    {
+      "path": "LICENSE",
+      "expected": "a272be183663bdf4468a11ae7966a405cd5afa2e00e01d8ba55362674848ac20",
+      "actual": "5efa33dfde108d98d502b273a2088fcfebb765520da3486a8d738935614e6a08"
+    },
+    {
+      "path": "README.md",
+      "expected": "8f508732df191fef82a930e10377de33fbf2d42ed80c00bcd6ebd55a81d576d2",
+      "actual": "eef4ea5247eb59b8ef4e4154f7e24a9b0e61cf36d1c2782948a7ec2ef5fc90af"
+    },
+    {
+      "path": "reproduce.py",
+      "expected": "d816ddb177f077b07f9cb7edccd6c82b0f6f19e425a7496b3c0951cd5e55bc12",
+      "actual": "73fa1a355e8bc37ceb9f4780802ef8f4a1ef4bfb23855d684cfd47e9ebea546a"
+    },
+    {
+      "path": "requirements.txt",
+      "expected": "610a4653657633fc720759a0376f9f8f293e241c96bc923dbe9bcd54289a598b",
+      "actual": "f460d19eb636a67293b04eb9d9502b3160c24ee972ef697e02da5c249f8901d9"
+    },
+    {
+      "path": "run_all.ps1",
+      "expected": "d2ae68139e000a26142fd4f111e7cf427d6bf4904b32e44aabee4fc7f0363a28",
+      "actual": "692be307dea8136d912c83d82a3d27527178b158955f4919aa141e60eb3c5416"
+    },
+    {
+      "path": "run_all.sh",
+      "expected": "5843994047291a895694863af6e0acc47a365527ba80815968d5e6db9df2b1f8",
+      "actual": "f53a4dd645f906f760f642cb9dbd23ff81e5671c96f5d50332f8f609301a622b"
+    },
+    {
+      "path": "src/experiment.py",
+      "expected": "072158218983405d0927e4cebc7b2760442e8b5f1ca98f2e10abf6500a625ecd",
+      "actual": "c9dc0075f1c4f9c20727c01a4462d9d82a62b29998a0cc72b570b3ceb8993a5d"
+    },
+    {
+      "path": "tests/test_artifact_metrics.py",
+      "expected": "64a863984a8efb2c240fb93ad88640f5e139448b7768c86c210ea75dffbf5e9c",
+      "actual": "d50dae7908bb15356869477daf0cee93c968baac06b5f1e53c20f1830c25200b"
+    },
+    {
+      "path": "tests/test_checkpoint_replay.py",
+      "expected": "25cbd1873779754363a4bf0a1ccb946c9645c38c329d9e514b058ca5fd1fa922",
+      "actual": "ae2ce4e5cc550c391d8294abf4f0cf709eeb2eb33daeff0e84966120eea2a514"
+    },
+    {
+      "path": "tests/test_data_integrity.py",
+      "expected": "37094c54a79f2c8f744762fb7eccff8fd210d61612cac451f88bcdb63dd49ae8",
+      "actual": "1cb13991b602b9c0bcccde86a75180732f423f7e211cd24de05d88e296705dd4"
+    },
+    {
+      "path": "tests/test_domain_isolation.py",
+      "expected": "a0654065d2b2942aa6995cf9e6fdd02ae5c8ee207d6a2e2dfa037bb0736fd845",
+      "actual": "fb60e840aeb341c8cf4f089ff77f4488f2b85aff848035fa01db59d5b3cb514d"
+    },
+    {
+      "path": "tests/test_model_and_gradients.py",
+      "expected": "3f10edd0ddc8f98da35113d46272280e64446f888ed2879fbd3ca33886a99cbd",
+      "actual": "7ee02f1d4ff2c02b52fa2e6f30252c90a26df614e27ff4e19f5c5f1b1877017b"
+    },
+    {
+      "path": "tests/test_window_manifest.py",
+      "expected": "b96a10e64a761b8f46d06d71c7e4eca8692ff34b22639a47e9141fde5857fca9",
+      "actual": "32357ab7d63036adfc2dc073fbf604ba73e225f8f5b249e7783da4cf1714ebf1"
+    }
+  ],
+  "raw_data_entries": [],
+  "pass": false
+}

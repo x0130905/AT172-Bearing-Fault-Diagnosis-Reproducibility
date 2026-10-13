@@ -1,0 +1,13 @@
+{
+  "run_count": 20,
+  "all_five_seeds_present_for_all_methods": true,
+  "all_labels_exact": true,
+  "all_predictions_exact": true,
+  "all_metrics_json_exact": true,
+  "all_runs_functionally_exact_at_1e-12": true,
+  "maximum_probability_absolute_difference": 9.992007221626409e-16,
+  "maximum_checkpoint_absolute_difference": 8.715250743307479e-15,
+  "maximum_history_absolute_difference": 4.440892098500626e-16,
+  "mmd_vs_erm_p_retained": 0.5,
+  "mmd_vs_erm_p_fresh": 0.5
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.395045522886565,
+    "cross_entropy": 1.393057037214059,
+    "regularizer": 0.0019884856725061887,
+    "validation_macro_f1": 0.1
+  },
+  {
+    "epoch": 2,
+    "loss": 1.3095183663749104,
+    "cross_entropy": 1.3075445182485013,
+    "regularizer": 0.0019738481264091317,
+    "validation_macro_f1": 0.1
+  },
+  {
+    "epoch": 3,
+    "loss": 1.2591106539167018,
+    "cross_entropy": 1.2555590423550906,
+    "regularizer": 0.003551611561611275,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 4,
+    "loss": 1.1682602620434328,
+    "cross_entropy": 1.1671847735524996,
+    "regularizer": 0.001075488490933208,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 5,
+    "loss": 1.1637294643543599,
+    "cross_entropy": 1.1623168625971765,
+    "regularizer": 0.0014126017571833875,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 6,
+    "loss": 1.0642472595201407,
+    "cross_entropy": 1.0615296884506957,
+    "regularizer": 0.0027175710694450103,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 7,
+    "loss": 1.0650749305671356,
+    "cross_entropy": 1.063466800181723,
+    "regularizer": 0.0016081303854128008,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 8,
+    "loss": 1.0487173233074658,
+    "cross_entropy": 1.0460069082855985,
+    "regularizer": 0.002710415021867337,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 9,
+    "loss": 1.0334040772332143,
+    "cross_entropy": 1.0296823597342022,
+    "regularizer": 0.003721717499011973,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 10,
+    "loss": 0.9242956808307831,
+    "cross_entropy": 0.9179909809633059,
+    "regularizer": 0.006304699867477144,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 11,
+    "loss": 0.9310209767244438,
+    "cross_entropy": 0.9283274904748023,
+    "regularizer": 0.0026934862496414977,
+    "validation_macro_f1": 0.6666666666666666
+  }
+]

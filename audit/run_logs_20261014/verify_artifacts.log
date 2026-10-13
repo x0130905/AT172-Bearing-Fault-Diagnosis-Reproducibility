@@ -1,0 +1,65 @@
++ <workspace>\output\AT172_Reproducibility_Final\.venv\Scripts\python.exe -m unittest discover -s tests -v
+test_all_prediction_metrics_match_json (test_artifact_metrics.ArtifactMetricTests.test_all_prediction_metrics_match_json) ... ok
+test_coral_predictions_equal_erm (test_artifact_metrics.ArtifactMetricTests.test_coral_predictions_equal_erm) ... ok
+test_all_checkpoints_reproduce_saved_test_predictions (test_checkpoint_replay.CheckpointReplayTests.test_all_checkpoints_reproduce_saved_test_predictions) ... ok
+test_local_data_hashes_when_data_dir_is_supplied (test_data_integrity.DataIntegrityTests.test_local_data_hashes_when_data_dir_is_supplied) ... ok
+test_manifest_defines_expected_files (test_data_integrity.DataIntegrityTests.test_manifest_defines_expected_files) ... ok
+test_protocol_uses_load_2_only_for_selection (test_domain_isolation.DomainIsolationTests.test_protocol_uses_load_2_only_for_selection) ... ok
+test_train_does_not_access_test_domain (test_domain_isolation.DomainIsolationTests.test_train_does_not_access_test_domain) ... ok
+test_coral_gradient (test_model_and_gradients.ModelTests.test_coral_gradient) ... ok
+test_erm_gradient (test_model_and_gradients.ModelTests.test_erm_gradient) ... ok
+test_mixup_soft_label_gradient (test_model_and_gradients.ModelTests.test_mixup_soft_label_gradient) ... ok
+test_mmd_gradient (test_model_and_gradients.ModelTests.test_mmd_gradient) ... ok
+test_parameter_count_and_shapes (test_model_and_gradients.ModelTests.test_parameter_count_and_shapes) ... ok
+test_same_seed_same_initial_parameters (test_model_and_gradients.ModelTests.test_same_seed_same_initial_parameters) ... ok
+test_counts_and_boundaries (test_window_manifest.WindowManifestTests.test_counts_and_boundaries) ... ok
+test_files_do_not_cross_splits (test_window_manifest.WindowManifestTests.test_files_do_not_cross_splits) ... ok
+test_non_overlapping_windows (test_window_manifest.WindowManifestTests.test_non_overlapping_windows) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.804s
+
+OK
++ <workspace>\output\AT172_Reproducibility_Final\.venv\Scripts\python.exe analysis/recompute_metrics.py --artifact-root <workspace>\AT172_REPRO_AUDIT_20261014_WORK\repo --output-dir <workspace>\AT172_REPRO_AUDIT_20261014_WORK\repo\audit\recomputed
+{
+  "all_prediction_metrics_match_recorded_metrics": true,
+  "coral_predictions_equal_erm_all_seeds": true,
+  "mmd_seeds_with_changed_predictions_vs_erm": [
+    20260916,
+    42
+  ],
+  "table_iv": [
+    {
+      "method": "ERM",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.09529644169938,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    },
+    {
+      "method": "CORAL",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.09529644169938,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    },
+    {
+      "method": "Mixup",
+      "median_macro_f1_pct": 79.13293757870122,
+      "minimum_pct": 55.00000000000001,
+      "maximum_pct": 100.0,
+      "paired_delta_vs_erm_pct": -6.660867896812703,
+      "exact_two_sided_sign_flip_p": 0.8125
+    },
+    {
+      "method": "Linear MMD",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.3979397939794,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.12307507730495494,
+      "exact_two_sided_sign_flip_p": 0.5
+    }
+  ]
+}

@@ -1,0 +1,21 @@
++ <workspace>\output\AT172_Reproducibility_Final\.venv\Scripts\python.exe src/experiment.py --data-dir <workspace>\icocta2026\data\raw\cwru_official --output-dir <workspace>\AT172_REPRO_AUDIT_20261014_WORK\fresh_rerun_20261014
+TRAIN baseline 20260916
+TRAIN baseline 20260917
+TRAIN baseline 20260918
+TRAIN baseline 42
+TRAIN baseline 123
+TRAIN coral 20260916
+TRAIN coral 20260917
+TRAIN coral 20260918
+TRAIN coral 42
+TRAIN coral 123
+TRAIN mixup 20260916
+TRAIN mixup 20260917
+TRAIN mixup 20260918
+TRAIN mixup 42
+TRAIN mixup 123
+TRAIN mmd 20260916
+TRAIN mmd 20260917
+TRAIN mmd 20260918
+TRAIN mmd 42
+TRAIN mmd 123

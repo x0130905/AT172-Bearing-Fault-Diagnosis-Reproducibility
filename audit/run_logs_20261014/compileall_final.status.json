@@ -1,0 +1,13 @@
+{
+  "command": [
+    "<workspace>\\output\\AT172_Reproducibility_Final\\.venv\\Scripts\\python.exe",
+    "-m",
+    "compileall",
+    "-q",
+    "<workspace>\\AT172_REPRO_AUDIT_20261014_WORK\\repo"
+  ],
+  "started_utc": "2026-10-13T22:22:47.750641+00:00",
+  "ended_utc": "2026-10-13T22:22:47.976456+00:00",
+  "duration_seconds": 0.225815,
+  "exit_code": 0
+}

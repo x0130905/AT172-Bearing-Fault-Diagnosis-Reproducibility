@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "manuscript_repo_url": true,
+    "manuscript_dataset_url": true,
+    "response_repo_url": true,
+    "response_dataset_url": true,
+    "pdf_repo_url": true,
+    "pdf_dataset_url": true,
+    "page_count_five": true,
+    "all_pages_a4": true,
+    "all_fonts_embedded": true,
+    "key_results_in_docx": true,
+    "historical_environment_disclosed": true,
+    "unsupported_mechanism_avoided": true,
+    "no_comments": true,
+    "no_tracked_changes": true,
+    "reviewer1_present": true,
+    "reviewer2_five_comments_present": true,
+    "table_and_figure_page_mapping": true
+  },
+  "fonts_missing": [],
+  "pass": true
+}

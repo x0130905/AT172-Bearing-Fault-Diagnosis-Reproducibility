@@ -1,0 +1,13 @@
+name: at172-verification-20261014
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - pip
+  - pip:
+      - numpy==2.5.3
+      - scipy==1.18.1
+      - pillow==12.3.0
+
+# This file records the 2026-10-14 verification environment only.
+# The historical training environment remains UNKNOWN.
