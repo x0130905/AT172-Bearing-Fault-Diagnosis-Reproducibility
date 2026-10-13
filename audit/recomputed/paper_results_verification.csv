@@ -1,0 +1,81 @@
+method,seed,domain,metric,paper_artifact_value,recomputed_value,difference,status,evidence
+ERM,20260916,unseen_test_3,accuracy,0.990625,0.990625,0.0,VERIFIED,predictions/baseline_20260916/predictions_test.npz
+ERM,20260916,unseen_test_3,macro_precision,0.9909638554216867,0.9909638554216867,0.0,VERIFIED,predictions/baseline_20260916/predictions_test.npz
+ERM,20260916,unseen_test_3,macro_recall,0.990625,0.990625,0.0,VERIFIED,predictions/baseline_20260916/predictions_test.npz
+ERM,20260916,unseen_test_3,macro_f1,0.9906217029424408,0.9906217029424408,0.0,VERIFIED,predictions/baseline_20260916/predictions_test.npz
+ERM,20260917,unseen_test_3,accuracy,0.790625,0.790625,0.0,VERIFIED,predictions/baseline_20260917/predictions_test.npz
+ERM,20260917,unseen_test_3,macro_precision,0.8860544217687075,0.8860544217687075,0.0,VERIFIED,predictions/baseline_20260917/predictions_test.npz
+ERM,20260917,unseen_test_3,macro_recall,0.790625,0.790625,0.0,VERIFIED,predictions/baseline_20260917/predictions_test.npz
+ERM,20260917,unseen_test_3,macro_f1,0.7461039268627729,0.7461039268627729,0.0,VERIFIED,predictions/baseline_20260917/predictions_test.npz
+ERM,20260918,unseen_test_3,accuracy,0.996875,0.996875,0.0,VERIFIED,predictions/baseline_20260918/predictions_test.npz
+ERM,20260918,unseen_test_3,macro_precision,0.9969135802469136,0.9969135802469136,0.0,VERIFIED,predictions/baseline_20260918/predictions_test.npz
+ERM,20260918,unseen_test_3,macro_recall,0.996875,0.996875,0.0,VERIFIED,predictions/baseline_20260918/predictions_test.npz
+ERM,20260918,unseen_test_3,macro_f1,0.996874877924919,0.996874877924919,0.0,VERIFIED,predictions/baseline_20260918/predictions_test.npz
+ERM,42,unseen_test_3,accuracy,0.615625,0.615625,0.0,VERIFIED,predictions/baseline_42/predictions_test.npz
+ERM,42,unseen_test_3,macro_precision,0.4916614550760892,0.4916614550760892,0.0,VERIFIED,predictions/baseline_42/predictions_test.npz
+ERM,42,unseen_test_3,macro_recall,0.615625,0.615625,0.0,VERIFIED,predictions/baseline_42/predictions_test.npz
+ERM,42,unseen_test_3,macro_f1,0.5409529644169938,0.5409529644169938,0.0,VERIFIED,predictions/baseline_42/predictions_test.npz
+ERM,123,unseen_test_3,accuracy,0.9875,0.9875,0.0,VERIFIED,predictions/baseline_123/predictions_test.npz
+ERM,123,unseen_test_3,macro_precision,0.9880952380952381,0.9880952380952381,0.0,VERIFIED,predictions/baseline_123/predictions_test.npz
+ERM,123,unseen_test_3,macro_recall,0.9875,0.9875,0.0,VERIFIED,predictions/baseline_123/predictions_test.npz
+ERM,123,unseen_test_3,macro_f1,0.9875733251003396,0.9875733251003396,0.0,VERIFIED,predictions/baseline_123/predictions_test.npz
+CORAL,20260916,unseen_test_3,accuracy,0.990625,0.990625,0.0,VERIFIED,predictions/coral_20260916/predictions_test.npz
+CORAL,20260916,unseen_test_3,macro_precision,0.9909638554216867,0.9909638554216867,0.0,VERIFIED,predictions/coral_20260916/predictions_test.npz
+CORAL,20260916,unseen_test_3,macro_recall,0.990625,0.990625,0.0,VERIFIED,predictions/coral_20260916/predictions_test.npz
+CORAL,20260916,unseen_test_3,macro_f1,0.9906217029424408,0.9906217029424408,0.0,VERIFIED,predictions/coral_20260916/predictions_test.npz
+CORAL,20260917,unseen_test_3,accuracy,0.790625,0.790625,0.0,VERIFIED,predictions/coral_20260917/predictions_test.npz
+CORAL,20260917,unseen_test_3,macro_precision,0.8860544217687075,0.8860544217687075,0.0,VERIFIED,predictions/coral_20260917/predictions_test.npz
+CORAL,20260917,unseen_test_3,macro_recall,0.790625,0.790625,0.0,VERIFIED,predictions/coral_20260917/predictions_test.npz
+CORAL,20260917,unseen_test_3,macro_f1,0.7461039268627729,0.7461039268627729,0.0,VERIFIED,predictions/coral_20260917/predictions_test.npz
+CORAL,20260918,unseen_test_3,accuracy,0.996875,0.996875,0.0,VERIFIED,predictions/coral_20260918/predictions_test.npz
+CORAL,20260918,unseen_test_3,macro_precision,0.9969135802469136,0.9969135802469136,0.0,VERIFIED,predictions/coral_20260918/predictions_test.npz
+CORAL,20260918,unseen_test_3,macro_recall,0.996875,0.996875,0.0,VERIFIED,predictions/coral_20260918/predictions_test.npz
+CORAL,20260918,unseen_test_3,macro_f1,0.996874877924919,0.996874877924919,0.0,VERIFIED,predictions/coral_20260918/predictions_test.npz
+CORAL,42,unseen_test_3,accuracy,0.615625,0.615625,0.0,VERIFIED,predictions/coral_42/predictions_test.npz
+CORAL,42,unseen_test_3,macro_precision,0.4916614550760892,0.4916614550760892,0.0,VERIFIED,predictions/coral_42/predictions_test.npz
+CORAL,42,unseen_test_3,macro_recall,0.615625,0.615625,0.0,VERIFIED,predictions/coral_42/predictions_test.npz
+CORAL,42,unseen_test_3,macro_f1,0.5409529644169938,0.5409529644169938,0.0,VERIFIED,predictions/coral_42/predictions_test.npz
+CORAL,123,unseen_test_3,accuracy,0.9875,0.9875,0.0,VERIFIED,predictions/coral_123/predictions_test.npz
+CORAL,123,unseen_test_3,macro_precision,0.9880952380952381,0.9880952380952381,0.0,VERIFIED,predictions/coral_123/predictions_test.npz
+CORAL,123,unseen_test_3,macro_recall,0.9875,0.9875,0.0,VERIFIED,predictions/coral_123/predictions_test.npz
+CORAL,123,unseen_test_3,macro_f1,0.9875733251003396,0.9875733251003396,0.0,VERIFIED,predictions/coral_123/predictions_test.npz
+Mixup,20260916,unseen_test_3,accuracy,0.975,0.975,0.0,VERIFIED,predictions/mixup_20260916/predictions_test.npz
+Mixup,20260916,unseen_test_3,macro_precision,0.9772727272727273,0.9772727272727273,0.0,VERIFIED,predictions/mixup_20260916/predictions_test.npz
+Mixup,20260916,unseen_test_3,macro_recall,0.975,0.975,0.0,VERIFIED,predictions/mixup_20260916/predictions_test.npz
+Mixup,20260916,unseen_test_3,macro_f1,0.9749373433583961,0.9749373433583961,0.0,VERIFIED,predictions/mixup_20260916/predictions_test.npz
+Mixup,20260917,unseen_test_3,accuracy,0.81875,0.81875,0.0,VERIFIED,predictions/mixup_20260917/predictions_test.npz
+Mixup,20260917,unseen_test_3,macro_precision,0.894927536231884,0.894927536231884,0.0,VERIFIED,predictions/mixup_20260917/predictions_test.npz
+Mixup,20260917,unseen_test_3,macro_recall,0.81875,0.81875,0.0,VERIFIED,predictions/mixup_20260917/predictions_test.npz
+Mixup,20260917,unseen_test_3,macro_f1,0.7913293757870121,0.7913293757870121,0.0,VERIFIED,predictions/mixup_20260917/predictions_test.npz
+Mixup,20260918,unseen_test_3,accuracy,0.68125,0.68125,0.0,VERIFIED,predictions/mixup_20260918/predictions_test.npz
+Mixup,20260918,unseen_test_3,macro_precision,0.6098901098901099,0.6098901098901099,0.0,VERIFIED,predictions/mixup_20260918/predictions_test.npz
+Mixup,20260918,unseen_test_3,macro_recall,0.68125,0.68125,0.0,VERIFIED,predictions/mixup_20260918/predictions_test.npz
+Mixup,20260918,unseen_test_3,macro_f1,0.6128166832614227,0.6128166832614227,0.0,VERIFIED,predictions/mixup_20260918/predictions_test.npz
+Mixup,42,unseen_test_3,accuracy,0.625,0.625,0.0,VERIFIED,predictions/mixup_42/predictions_test.npz
+Mixup,42,unseen_test_3,macro_precision,0.49999999999999994,0.49999999999999994,0.0,VERIFIED,predictions/mixup_42/predictions_test.npz
+Mixup,42,unseen_test_3,macro_recall,0.625,0.625,0.0,VERIFIED,predictions/mixup_42/predictions_test.npz
+Mixup,42,unseen_test_3,macro_f1,0.55,0.55,0.0,VERIFIED,predictions/mixup_42/predictions_test.npz
+Mixup,123,unseen_test_3,accuracy,1.0,1.0,0.0,VERIFIED,predictions/mixup_123/predictions_test.npz
+Mixup,123,unseen_test_3,macro_precision,1.0,1.0,0.0,VERIFIED,predictions/mixup_123/predictions_test.npz
+Mixup,123,unseen_test_3,macro_recall,1.0,1.0,0.0,VERIFIED,predictions/mixup_123/predictions_test.npz
+Mixup,123,unseen_test_3,macro_f1,1.0,1.0,0.0,VERIFIED,predictions/mixup_123/predictions_test.npz
+Linear MMD,20260916,unseen_test_3,accuracy,0.99375,0.99375,0.0,VERIFIED,predictions/mmd_20260916/predictions_test.npz
+Linear MMD,20260916,unseen_test_3,macro_precision,0.9939024390243902,0.9939024390243902,0.0,VERIFIED,predictions/mmd_20260916/predictions_test.npz
+Linear MMD,20260916,unseen_test_3,macro_recall,0.99375,0.99375,0.0,VERIFIED,predictions/mmd_20260916/predictions_test.npz
+Linear MMD,20260916,unseen_test_3,macro_f1,0.9937490232848882,0.9937490232848882,0.0,VERIFIED,predictions/mmd_20260916/predictions_test.npz
+Linear MMD,20260917,unseen_test_3,accuracy,0.790625,0.790625,0.0,VERIFIED,predictions/mmd_20260917/predictions_test.npz
+Linear MMD,20260917,unseen_test_3,macro_precision,0.8860544217687075,0.8860544217687075,0.0,VERIFIED,predictions/mmd_20260917/predictions_test.npz
+Linear MMD,20260917,unseen_test_3,macro_recall,0.790625,0.790625,0.0,VERIFIED,predictions/mmd_20260917/predictions_test.npz
+Linear MMD,20260917,unseen_test_3,macro_f1,0.7461039268627729,0.7461039268627729,0.0,VERIFIED,predictions/mmd_20260917/predictions_test.npz
+Linear MMD,20260918,unseen_test_3,accuracy,0.996875,0.996875,0.0,VERIFIED,predictions/mmd_20260918/predictions_test.npz
+Linear MMD,20260918,unseen_test_3,macro_precision,0.9969135802469136,0.9969135802469136,0.0,VERIFIED,predictions/mmd_20260918/predictions_test.npz
+Linear MMD,20260918,unseen_test_3,macro_recall,0.996875,0.996875,0.0,VERIFIED,predictions/mmd_20260918/predictions_test.npz
+Linear MMD,20260918,unseen_test_3,macro_f1,0.996874877924919,0.996874877924919,0.0,VERIFIED,predictions/mmd_20260918/predictions_test.npz
+Linear MMD,42,unseen_test_3,accuracy,0.61875,0.61875,0.0,VERIFIED,predictions/mmd_42/predictions_test.npz
+Linear MMD,42,unseen_test_3,macro_precision,0.49444290080577935,0.49444290080577935,0.0,VERIFIED,predictions/mmd_42/predictions_test.npz
+Linear MMD,42,unseen_test_3,macro_recall,0.61875,0.61875,0.0,VERIFIED,predictions/mmd_42/predictions_test.npz
+Linear MMD,42,unseen_test_3,macro_f1,0.543979397939794,0.543979397939794,0.0,VERIFIED,predictions/mmd_42/predictions_test.npz
+Linear MMD,123,unseen_test_3,accuracy,0.9875,0.9875,0.0,VERIFIED,predictions/mmd_123/predictions_test.npz
+Linear MMD,123,unseen_test_3,macro_precision,0.9880952380952381,0.9880952380952381,0.0,VERIFIED,predictions/mmd_123/predictions_test.npz
+Linear MMD,123,unseen_test_3,macro_recall,0.9875,0.9875,0.0,VERIFIED,predictions/mmd_123/predictions_test.npz
+Linear MMD,123,unseen_test_3,macro_f1,0.9875733251003396,0.9875733251003396,0.0,VERIFIED,predictions/mmd_123/predictions_test.npz

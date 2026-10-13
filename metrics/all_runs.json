@@ -1,0 +1,2642 @@
+[
+  {
+    "method": "baseline",
+    "seed": 20260916,
+    "source_0": {
+      "accuracy": 0.978125,
+      "macro_precision": 0.9798850574712643,
+      "macro_recall": 0.978125,
+      "macro_f1": 0.9780830495871002,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          73
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.990625,
+      "macro_precision": 0.9909638554216867,
+      "macro_recall": 0.990625,
+      "macro_f1": 0.9906217029424408,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          77
+        ]
+      ]
+    }
+  },
+  {
+    "method": "baseline",
+    "seed": 20260917,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.8125,
+      "macro_precision": 0.8928571428571428,
+      "macro_recall": 0.8125,
+      "macro_f1": 0.7818181818181819,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          20
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.84375,
+      "macro_precision": 0.8675548589341693,
+      "macro_recall": 0.84375,
+      "macro_f1": 0.8354180381830152,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          7
+        ],
+        [
+          0,
+          0,
+          43,
+          37
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.790625,
+      "macro_precision": 0.8860544217687075,
+      "macro_recall": 0.790625,
+      "macro_f1": 0.7461039268627729,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          67,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "method": "baseline",
+    "seed": 20260918,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.996875,
+      "macro_precision": 0.9969135802469136,
+      "macro_recall": 0.996875,
+      "macro_f1": 0.996874877924919,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          79
+        ]
+      ]
+    }
+  },
+  {
+    "method": "baseline",
+    "seed": 42,
+    "source_0": {
+      "accuracy": 0.65,
+      "macro_precision": 0.5223214285714286,
+      "macro_recall": 0.65,
+      "macro_f1": 0.5737179487179487,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          48,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.615625,
+      "macro_precision": 0.4916614550760892,
+      "macro_recall": 0.615625,
+      "macro_f1": 0.5409529644169938,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          43,
+          37,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "method": "baseline",
+    "seed": 123,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.9875,
+      "macro_precision": 0.9880952380952381,
+      "macro_recall": 0.9875,
+      "macro_f1": 0.9875733251003396,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          78,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          78
+        ]
+      ]
+    }
+  },
+  {
+    "method": "coral",
+    "seed": 20260916,
+    "source_0": {
+      "accuracy": 0.978125,
+      "macro_precision": 0.9798850574712643,
+      "macro_recall": 0.978125,
+      "macro_f1": 0.9780830495871002,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          73
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.990625,
+      "macro_precision": 0.9909638554216867,
+      "macro_recall": 0.990625,
+      "macro_f1": 0.9906217029424408,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          77
+        ]
+      ]
+    }
+  },
+  {
+    "method": "coral",
+    "seed": 20260917,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.8125,
+      "macro_precision": 0.8928571428571428,
+      "macro_recall": 0.8125,
+      "macro_f1": 0.7818181818181819,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          20
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.84375,
+      "macro_precision": 0.8675548589341693,
+      "macro_recall": 0.84375,
+      "macro_f1": 0.8354180381830152,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          7
+        ],
+        [
+          0,
+          0,
+          43,
+          37
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.790625,
+      "macro_precision": 0.8860544217687075,
+      "macro_recall": 0.790625,
+      "macro_f1": 0.7461039268627729,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          67,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "method": "coral",
+    "seed": 20260918,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.996875,
+      "macro_precision": 0.9969135802469136,
+      "macro_recall": 0.996875,
+      "macro_f1": 0.996874877924919,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          79
+        ]
+      ]
+    }
+  },
+  {
+    "method": "coral",
+    "seed": 42,
+    "source_0": {
+      "accuracy": 0.65,
+      "macro_precision": 0.5223214285714286,
+      "macro_recall": 0.65,
+      "macro_f1": 0.5737179487179487,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          48,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.615625,
+      "macro_precision": 0.4916614550760892,
+      "macro_recall": 0.615625,
+      "macro_f1": 0.5409529644169938,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          43,
+          37,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "method": "coral",
+    "seed": 123,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.9875,
+      "macro_precision": 0.9880952380952381,
+      "macro_recall": 0.9875,
+      "macro_f1": 0.9875733251003396,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          78,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          78
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mixup",
+    "seed": 20260916,
+    "source_0": {
+      "accuracy": 0.98125,
+      "macro_precision": 0.9825581395348837,
+      "macro_recall": 0.98125,
+      "macro_f1": 0.981223595681427,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          74
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.975,
+      "macro_precision": 0.9772727272727273,
+      "macro_recall": 0.975,
+      "macro_f1": 0.9749373433583961,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          72
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mixup",
+    "seed": 20260917,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.840625,
+      "macro_precision": 0.9026717557251909,
+      "macro_recall": 0.840625,
+      "macro_f1": 0.8226009826514196,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          51,
+          29
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.871875,
+      "macro_precision": 0.8828564128768523,
+      "macro_recall": 0.8718750000000001,
+      "macro_f1": 0.8691715527900761,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          71,
+          9
+        ],
+        [
+          0,
+          0,
+          32,
+          48
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.81875,
+      "macro_precision": 0.894927536231884,
+      "macro_recall": 0.81875,
+      "macro_f1": 0.7913293757870121,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          58,
+          22
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mixup",
+    "seed": 20260918,
+    "source_0": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.75,
+      "macro_precision": 0.6040084076996829,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6585906177379401,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          11,
+          69,
+          0
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.68125,
+      "macro_precision": 0.6098901098901099,
+      "macro_recall": 0.68125,
+      "macro_f1": 0.6128166832614227,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          58,
+          22,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mixup",
+    "seed": 42,
+    "source_0": {
+      "accuracy": 0.66875,
+      "macro_precision": 0.5394255139397353,
+      "macro_recall": 0.66875,
+      "macro_f1": 0.5912219877399256,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          26,
+          54,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.625,
+      "macro_precision": 0.49999999999999994,
+      "macro_recall": 0.625,
+      "macro_f1": 0.55,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mixup",
+    "seed": 123,
+    "source_0": {
+      "accuracy": 0.996875,
+      "macro_precision": 0.9969135802469136,
+      "macro_recall": 0.996875,
+      "macro_f1": 0.996874877924919,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          79,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.996875,
+      "macro_precision": 0.9969135802469136,
+      "macro_recall": 0.996875,
+      "macro_f1": 0.996874877924919,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          79
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mmd",
+    "seed": 20260916,
+    "source_0": {
+      "accuracy": 0.98125,
+      "macro_precision": 0.9825581395348837,
+      "macro_recall": 0.98125,
+      "macro_f1": 0.981223595681427,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          74
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.99375,
+      "macro_precision": 0.9939024390243902,
+      "macro_recall": 0.99375,
+      "macro_f1": 0.9937490232848882,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          78
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mmd",
+    "seed": 20260917,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.8125,
+      "macro_precision": 0.8928571428571428,
+      "macro_recall": 0.8125,
+      "macro_f1": 0.7818181818181819,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          20
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.84375,
+      "macro_precision": 0.8675548589341693,
+      "macro_recall": 0.84375,
+      "macro_f1": 0.8354180381830152,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          7
+        ],
+        [
+          0,
+          0,
+          43,
+          37
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.790625,
+      "macro_precision": 0.8860544217687075,
+      "macro_recall": 0.790625,
+      "macro_f1": 0.7461039268627729,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          67,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mmd",
+    "seed": 20260918,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.996875,
+      "macro_precision": 0.9969135802469136,
+      "macro_recall": 0.996875,
+      "macro_f1": 0.996874877924919,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          79
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mmd",
+    "seed": 42,
+    "source_0": {
+      "accuracy": 0.65,
+      "macro_precision": 0.5223214285714286,
+      "macro_recall": 0.65,
+      "macro_f1": 0.5737179487179487,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          48,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 0.75,
+      "macro_precision": 0.625,
+      "macro_recall": 0.75,
+      "macro_f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.61875,
+      "macro_precision": 0.49444290080577935,
+      "macro_recall": 0.61875,
+      "macro_f1": 0.543979397939794,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          42,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "method": "mmd",
+    "seed": 123,
+    "source_0": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "source_1": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "validation_2": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ]
+      ]
+    },
+    "unseen_test_3": {
+      "accuracy": 0.9875,
+      "macro_precision": 0.9880952380952381,
+      "macro_recall": 0.9875,
+      "macro_f1": 0.9875733251003396,
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          78,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          78
+        ]
+      ]
+    }
+  }
+]

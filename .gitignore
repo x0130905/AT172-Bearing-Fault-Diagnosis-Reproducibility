@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+data/
+raw_data/
+*.mat
+fresh_rerun/
+new_results/
+.DS_Store
+Thumbs.db

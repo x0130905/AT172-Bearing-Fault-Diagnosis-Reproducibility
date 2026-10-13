@@ -1,0 +1,17 @@
+﻿class,class_id,load_hp,file_id,url,local_path,bytes,sha256
+normal,0,0,97,https://engineering.case.edu/sites/default/files/97.mat,data\raw\cwru_official\97.mat,3903344,16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c
+normal,0,1,98,https://engineering.case.edu/sites/default/files/98.mat,data\raw\cwru_official\98.mat,5635632,5d8bc5c1bfc52c92be47e52ed897e151e7e5ee8542df937d6a5b0bb521485287
+normal,0,2,99,https://engineering.case.edu/sites/default/files/99.mat,data\raw\cwru_official\99.mat,15503928,4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75
+normal,0,3,100,https://engineering.case.edu/sites/default/files/100.mat,data\raw\cwru_official\100.mat,7770624,88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78
+ir007,1,0,105,https://engineering.case.edu/sites/default/files/105.mat,data\raw\cwru_official\105.mat,1588821,4a39f11e72fabb1668d46eee603e39ce0ab9ee5b408c9d004325233de236271d
+ir007,1,1,106,https://engineering.case.edu/sites/default/files/106.mat,data\raw\cwru_official\106.mat,2928192,e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883
+ir007,1,2,107,https://engineering.case.edu/sites/default/files/107.mat,data\raw\cwru_official\107.mat,2931672,111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388
+ir007,1,3,108,https://engineering.case.edu/sites/default/files/108.mat,data\raw\cwru_official\108.mat,2950416,d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d
+ball007,2,0,118,https://engineering.case.edu/sites/default/files/118.mat,data\raw\cwru_official\118.mat,2942112,b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e
+ball007,2,1,119,https://engineering.case.edu/sites/default/files/119.mat,data\raw\cwru_official\119.mat,2914248,bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330
+ball007,2,2,120,https://engineering.case.edu/sites/default/files/120.mat,data\raw\cwru_official\120.mat,2917752,e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c
+ball007,2,3,121,https://engineering.case.edu/sites/default/files/121.mat,data\raw\cwru_official\121.mat,2917752,52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb
+or007,3,0,130,https://engineering.case.edu/sites/default/files/130.mat,data\raw\cwru_official\130.mat,2928192,35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d
+or007,3,1,131,https://engineering.case.edu/sites/default/files/131.mat,data\raw\cwru_official\131.mat,2938632,7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb
+or007,3,2,132,https://engineering.case.edu/sites/default/files/132.mat,data\raw\cwru_official\132.mat,1506875,65c0cb53b1a4c6f2017e14b736f60210a39c04a3da768478d5def7c6b702a154
+or007,3,3,133,https://engineering.case.edu/sites/default/files/133.mat,data\raw\cwru_official\133.mat,2942112,53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71

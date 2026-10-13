@@ -1,0 +1,96 @@
+{
+  "scope": "current audit and fresh-rerun environment; not the historical training environment",
+  "historical_environment": "UNKNOWN",
+  "captured_at_local": "2026-10-13T14:28:25.697477+08:00",
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "<virtual-environment>/python.exe",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pillow": "12.3.0"
+  },
+  "numpy_configuration": {
+    "Compilers": {
+      "c": {
+        "name": "msvc",
+        "linker": "link",
+        "version": "19.44.35228",
+        "commands": "cl"
+      },
+      "cython": {
+        "name": "cython",
+        "linker": "cython",
+        "version": "3.3.0",
+        "commands": "cython"
+      },
+      "c++": {
+        "name": "msvc",
+        "linker": "link",
+        "version": "19.44.35228",
+        "commands": "cl"
+      }
+    },
+    "Machine Information": {
+      "host": {
+        "cpu": "x86_64",
+        "family": "x86_64",
+        "endian": "little",
+        "system": "windows"
+      },
+      "build": {
+        "cpu": "x86_64",
+        "family": "x86_64",
+        "endian": "little",
+        "system": "windows"
+      }
+    },
+    "Build Dependencies": {
+      "blas": {
+        "name": "scipy-openblas",
+        "found": true,
+        "version": "0.3.34.106.0",
+        "detection method": "pkgconfig",
+        "include directory": "<redacted-build-path>",
+        "lib directory": "<redacted-build-path>",
+        "openblas configuration": "OpenBLAS 0.3.34.106.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+        "pc file directory": "<redacted-build-path>"
+      },
+      "lapack": {
+        "name": "scipy-openblas",
+        "found": true,
+        "version": "0.3.34.106.0",
+        "detection method": "pkgconfig",
+        "include directory": "<redacted-build-path>",
+        "lib directory": "<redacted-build-path>",
+        "openblas configuration": "OpenBLAS 0.3.34.106.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+        "pc file directory": "<redacted-build-path>"
+      }
+    },
+    "Python Information": {
+      "path": "<redacted-build-path>",
+      "version": "3.12"
+    },
+    "SIMD Extensions": {
+      "baseline": [
+        "X86_V2"
+      ],
+      "found": [
+        "X86_V3"
+      ]
+    }
+  },
+  "environment_variables": {
+    "OMP_NUM_THREADS": "UNSET",
+    "MKL_NUM_THREADS": "UNSET",
+    "OPENBLAS_NUM_THREADS": "UNSET",
+    "VECLIB_MAXIMUM_THREADS": "UNSET",
+    "NUMEXPR_NUM_THREADS": "UNSET",
+    "PYTHONHASHSEED": "UNSET"
+  },
+  "random_generators": "numpy.random.default_rng with PCG64 unless changed by NumPy",
+  "gpu": "Not used; implementation is CPU NumPy",
+  "path_redaction_note": "Absolute interpreter and wheel-build paths were removed before public release; versions and computational configuration were retained."
+}

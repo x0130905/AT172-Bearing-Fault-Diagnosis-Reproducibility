@@ -1,0 +1,79 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.3930600024058557,
+    "cross_entropy": 1.3930507264041654,
+    "regularizer": 9.276001690293495e-06,
+    "validation_macro_f1": 0.1
+  },
+  {
+    "epoch": 2,
+    "loss": 1.3075204458258982,
+    "cross_entropy": 1.3075046137108308,
+    "regularizer": 1.583211506731353e-05,
+    "validation_macro_f1": 0.1
+  },
+  {
+    "epoch": 3,
+    "loss": 1.2554710220209306,
+    "cross_entropy": 1.255453227284126,
+    "regularizer": 1.7794736804664e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 4,
+    "loss": 1.1669337973865297,
+    "cross_entropy": 1.1669172365317755,
+    "regularizer": 1.6560854754139742e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 5,
+    "loss": 1.1619501724732941,
+    "cross_entropy": 1.1619278001661248,
+    "regularizer": 2.237230716923019e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 6,
+    "loss": 1.0609769180850535,
+    "cross_entropy": 1.0609489257147189,
+    "regularizer": 2.7992370334507007e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 7,
+    "loss": 1.0629422001952873,
+    "cross_entropy": 1.0629180273629588,
+    "regularizer": 2.417283232854275e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 8,
+    "loss": 1.0454823101383137,
+    "cross_entropy": 1.0454351429100184,
+    "regularizer": 4.716722829537833e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 9,
+    "loss": 1.0291309772601582,
+    "cross_entropy": 1.0290645534110832,
+    "regularizer": 6.642384907503036e-05,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 10,
+    "loss": 0.9173345757641183,
+    "cross_entropy": 0.9172328538472143,
+    "regularizer": 0.00010172191690391015,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 11,
+    "loss": 0.9276170481711283,
+    "cross_entropy": 0.9275605920773915,
+    "regularizer": 5.6456093736798335e-05,
+    "validation_macro_f1": 0.6666666666666666
+  }
+]

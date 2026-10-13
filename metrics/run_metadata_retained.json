@@ -1,0 +1,18 @@
+{
+  "elapsed_seconds": 191.16975180000009,
+  "parameter_count": 228,
+  "test_used_for_training_or_selection": false,
+  "methods": [
+    "baseline",
+    "coral",
+    "mixup",
+    "mmd"
+  ],
+  "seeds": [
+    20260916,
+    20260917,
+    20260918,
+    42,
+    123
+  ]
+}

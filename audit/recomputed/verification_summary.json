@@ -1,0 +1,42 @@
+{
+  "all_prediction_metrics_match_recorded_metrics": true,
+  "coral_predictions_equal_erm_all_seeds": true,
+  "mmd_seeds_with_changed_predictions_vs_erm": [
+    20260916,
+    42
+  ],
+  "table_iv": [
+    {
+      "method": "ERM",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.09529644169938,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    },
+    {
+      "method": "CORAL",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.09529644169938,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.0,
+      "exact_two_sided_sign_flip_p": 1.0
+    },
+    {
+      "method": "Mixup",
+      "median_macro_f1_pct": 79.13293757870122,
+      "minimum_pct": 55.00000000000001,
+      "maximum_pct": 100.0,
+      "paired_delta_vs_erm_pct": -6.660867896812703,
+      "exact_two_sided_sign_flip_p": 0.8125
+    },
+    {
+      "method": "Linear MMD",
+      "median_macro_f1_pct": 98.75733251003396,
+      "minimum_pct": 54.3979397939794,
+      "maximum_pct": 99.68748779249191,
+      "paired_delta_vs_erm_pct": 0.12307507730495494,
+      "exact_two_sided_sign_flip_p": 0.5
+    }
+  ]
+}

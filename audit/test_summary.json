@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "raw_data_hash_validation": true,
+  "checkpoint_replay_runs": 20,
+  "finite_difference_objectives": [
+    "ERM",
+    "CORAL",
+    "Mixup soft-label cross-entropy",
+    "Linear MMD"
+  ],
+  "data_directory_included_in_package": false,
+  "note": "Tests were run with AT172_DATA_DIR pointing to the local official CWRU MAT files. The MAT files are not redistributed."
+}

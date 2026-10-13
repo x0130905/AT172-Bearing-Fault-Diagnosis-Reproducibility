@@ -1,0 +1,121 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.3433240979402132,
+    "cross_entropy": 1.3433240979402132,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.11976047904191618
+  },
+  {
+    "epoch": 2,
+    "loss": 1.3024873101805263,
+    "cross_entropy": 1.3024873101805263,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.33053221288515405
+  },
+  {
+    "epoch": 3,
+    "loss": 1.268072708032542,
+    "cross_entropy": 1.268072708032542,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.3014549258273108
+  },
+  {
+    "epoch": 4,
+    "loss": 1.2397325365582637,
+    "cross_entropy": 1.2397325365582637,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6190476190476191
+  },
+  {
+    "epoch": 5,
+    "loss": 1.179107821328258,
+    "cross_entropy": 1.179107821328258,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6475770925110133
+  },
+  {
+    "epoch": 6,
+    "loss": 1.1555879721670825,
+    "cross_entropy": 1.1555879721670825,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6735368562425745
+  },
+  {
+    "epoch": 7,
+    "loss": 1.040316103906466,
+    "cross_entropy": 1.040316103906466,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.7360150848522942
+  },
+  {
+    "epoch": 8,
+    "loss": 1.0006323679175686,
+    "cross_entropy": 1.0006323679175686,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.8273087640802228
+  },
+  {
+    "epoch": 9,
+    "loss": 1.009692779388868,
+    "cross_entropy": 1.009692779388868,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.8354180381830152
+  },
+  {
+    "epoch": 10,
+    "loss": 0.8989677955379161,
+    "cross_entropy": 0.8989677955379161,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 11,
+    "loss": 0.9052537430949967,
+    "cross_entropy": 0.9052537430949967,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 12,
+    "loss": 0.860238531574161,
+    "cross_entropy": 0.860238531574161,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 13,
+    "loss": 0.8456948721475025,
+    "cross_entropy": 0.8456948721475025,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 14,
+    "loss": 0.8258659875745094,
+    "cross_entropy": 0.8258659875745094,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 15,
+    "loss": 0.8306751120428897,
+    "cross_entropy": 0.8306751120428897,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 16,
+    "loss": 0.9059914668835913,
+    "cross_entropy": 0.9059914668835913,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.6666666666666666
+  },
+  {
+    "epoch": 17,
+    "loss": 0.8136286999711361,
+    "cross_entropy": 0.8136286999711361,
+    "regularizer": 0.0,
+    "validation_macro_f1": 0.7237219709129822
+  }
+]

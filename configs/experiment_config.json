@@ -1,0 +1,35 @@
+{
+  "seed_list": [
+    20260916,
+    20260917,
+    20260918,
+    42,
+    123
+  ],
+  "sampling_frequency_hz": 12000,
+  "window_length": 1024,
+  "stride": 1024,
+  "windows_per_recording": 80,
+  "source_train_loads_hp": [
+    0,
+    1
+  ],
+  "validation_load_hp": 2,
+  "unseen_test_load_hp": 3,
+  "epochs": 30,
+  "batch_per_domain": 32,
+  "learning_rate": 0.002,
+  "conv_channels": 16,
+  "kernel_size": 9,
+  "coral_lambda": 1.0,
+  "normalization": "per-window z-score using only that window",
+  "methods": [
+    "baseline",
+    "coral",
+    "mixup",
+    "mmd"
+  ],
+  "mixup_alpha": 0.2,
+  "mmd_lambda": 1.0,
+  "output_directory": "raw_results_v4"
+}

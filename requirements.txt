@@ -1,0 +1,7 @@
+numpy==2.5.3
+scipy==1.18.1
+pillow==12.3.0
+
+# These are the verified fresh-rerun environment versions recorded in
+# environment_report.json. Historical training versions remain UNKNOWN.
+
