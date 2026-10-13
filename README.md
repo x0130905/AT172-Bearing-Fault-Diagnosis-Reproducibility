@@ -2,6 +2,8 @@
 
 Reproducibility materials for paper **AT172**, accepted by the **2026 6th International Conference on Control Theory and Applications (ICoCTA 2026)**.
 
+Public repository: https://github.com/x0130905/AT172-Bearing-Fault-Diagnosis-Reproducibility
+
 ## Overview
 
 This repository contains the NumPy implementation, frozen experiment configuration, model checkpoints, prediction outputs, training histories, data manifests, automated tests, statistical analysis, and figure/table reconstruction code used for the paper. It evaluates a 228-parameter 1D-CNN with ERM, source-only CORAL, Mixup, and linear MMD under a held-out-load protocol.
