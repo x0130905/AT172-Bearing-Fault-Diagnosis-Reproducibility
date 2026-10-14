@@ -1,6 +1,6 @@
 {
   "scope": "current audit and fresh-rerun environment; not the historical training environment",
-  "historical_environment": "UNKNOWN",
+  "historical_environment": "PARTIALLY VERIFIED: Windows AMD64, CPython 3.12.x, CPU-only NumPy path, and SciPy 1.18.1; see audit/original_environment_evidence_20261014.md",
   "captured_at_local": "2026-10-13T14:28:25.697477+08:00",
   "operating_system": "Windows-11-10.0.26200-SP0",
   "machine": "AMD64",

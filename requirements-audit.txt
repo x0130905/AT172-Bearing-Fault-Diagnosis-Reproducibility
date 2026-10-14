@@ -3,4 +3,5 @@ scipy==1.18.1
 pillow==12.3.0
 
 # Controlled 2026-10-14 verification environment.
-# Historical training versions remain UNKNOWN.
+# Historical evidence verifies CPython 3.12.x and SciPy 1.18.1; exact
+# NumPy/BLAS and Python patch versions remain UNKNOWN.

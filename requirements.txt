@@ -3,5 +3,6 @@ scipy==1.18.1
 pillow==12.3.0
 
 # These are the verified fresh-rerun environment versions recorded in
-# environment_report.json. Historical training versions remain UNKNOWN.
+# environment_report.json. The historical path was CPython 3.12.x with
+# SciPy 1.18.1; exact NumPy/BLAS and Python patch versions remain UNKNOWN.
 

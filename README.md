@@ -13,15 +13,15 @@ This repository contains the NumPy implementation, frozen experiment configurati
 This archive supports two distinct activities:
 
 1. **Artifact verification** recomputes metrics and paper tables from the retained prediction arrays, histories, checkpoints, manifests, and configuration. This path verifies the published numerical claims without retraining.
-2. **Fresh rerun** downloads or reads the official CWRU MAT files and retrains all four methods and five seeds in a new environment. A fresh rerun is a new execution, not proof of the unknown historical software environment.
+2. **Fresh rerun** downloads or reads the official CWRU MAT files and retrains all four methods and five seeds in a new environment. A fresh rerun is a new execution, not proof that every historical software and hardware detail has been recovered.
 
 Hash verification establishes artifact integrity, while predictive correctness and numerical reproducibility are assessed separately through the provided evaluation scripts and audit records.
 
 `SHA256SUMS.txt` is generated from LF-normalized release files. `.gitattributes` fixes text files to LF so the manifest is stable between the repository and release archive. The checksum manifest intentionally excludes itself, Git metadata, and Python cache files.
 
-The original CWRU recordings are not redistributed. Historical Python and package versions were not logged and are therefore **UNKNOWN**. `requirements.txt` and `environment_report.json` describe the environment used for the fresh rerun performed during this audit.
+The original CWRU recordings are not redistributed. Later forensic recovery identifies the original path as Windows AMD64, CPython 3.12.x, CPU-only NumPy, and SciPy 1.18.1. The exact Python patch, NumPy/BLAS build, Windows release/build, CPU model, RAM, and thread settings remain **UNKNOWN**. `audit/original_environment_evidence_20261014.md` separates recovered facts from unresolved fields. `requirements.txt` and `environment_report.json` describe the compatible environment used for the controlled fresh rerun.
 
-For the 2026-10-14 independent rerun, `audit/environment_verification_20261014.json`, `environment-audit.yml`, and `requirements-audit.txt` record the separately controlled verification environment. These files do not replace or infer the unknown historical environment.
+For the 2026-10-14 independent rerun, `audit/environment_verification_20261014.json`, `environment-audit.yml`, and `requirements-audit.txt` record the separately controlled verification environment. These files do not replace unresolved historical details.
 
 ## Protocol
 
@@ -163,9 +163,9 @@ All methods use identical seed-specific initial parameters. ERM, CORAL, and line
 ## Provenance and limits
 
 - The retained checkpoints and predictions are directly verifiable against the supplied hashes.
-- The exact historical interpreter, NumPy/SciPy versions, BLAS build, CPU thread settings, and dependency lock file are **UNKNOWN**.
+- Historical evidence verifies Windows AMD64, CPython 3.12.x, a CPU-only NumPy execution path, and SciPy 1.18.1. The exact Python patch, NumPy/BLAS build, Windows release/build, CPU model, RAM, thread settings, and dependency lock file are **UNKNOWN**.
 - The audit fresh rerun was performed with CPython 3.12, NumPy 2.5.3, SciPy 1.18.1, and Pillow 12.3.0. The captured software and hardware disclosure is in `audit/environment_verification_20261014.json`; the earlier `audit/environment_report.json` remains as a separate pre-release audit record.
-- The audit fresh rerun is recorded separately from artifact verification and must not be interpreted as recovery of the unknown historical environment.
+- The audit fresh rerun is recorded separately from artifact verification and must not be interpreted as recovery of unresolved historical details.
 - The evaluation covers one laboratory dataset, one seeded-fault diameter, four closed-set classes, one sensor channel, one held-out load, and five random seeds. It does not establish industrial field reliability or a universal ranking of domain-generalization methods.
 - Reproducing the reported protocol requires the exact official files listed in `data_manifests/dataset_manifest.csv`, successful hash verification, the fixed configuration, and all five declared seeds. Artifact verification alone is not a substitute for retraining.
 - This controlled CWRU result does not validate latency, energy use, streaming behavior, open-set faults, sensor degradation, cross-machine transfer, or safety-critical industrial deployment.

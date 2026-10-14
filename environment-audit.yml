@@ -10,4 +10,5 @@ dependencies:
       - pillow==12.3.0
 
 # This file records the 2026-10-14 verification environment only.
-# The historical training environment remains UNKNOWN.
+# Historical evidence verifies Windows AMD64, CPython 3.12.x, a CPU-only
+# NumPy path, and SciPy 1.18.1. Other historical details remain UNKNOWN.

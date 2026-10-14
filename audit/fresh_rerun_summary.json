@@ -41,7 +41,7 @@
       "mmd_lambda": 1.0,
       "normalization": "per-window z-score using only that window"
     },
-    "historical_environment_claim": "UNKNOWN"
+    "historical_environment_claim": "PARTIALLY VERIFIED; unresolved fields are listed in audit/original_environment_evidence_20261014.md"
   },
-  "interpretation": "This verifies reproducibility in the recorded 2026-10-13 audit environment; it does not identify the unknown historical training environment."
+  "interpretation": "This verifies reproducibility in the recorded 2026-10-13 audit environment; it does not identify unresolved historical environment details."
 }

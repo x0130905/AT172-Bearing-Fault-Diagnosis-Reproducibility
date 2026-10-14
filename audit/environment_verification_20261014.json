@@ -2,12 +2,18 @@
   "captured_at_local": "2026-10-14 Asia/Shanghai",
   "scope": "controlled 2026-10-14 verification and fresh-rerun environment; not the historical training environment",
   "historical_environment": {
-    "python": "UNKNOWN",
-    "numpy": "UNKNOWN",
-    "scipy": "UNKNOWN",
+    "operating_system": "Microsoft Windows, exact release/build UNKNOWN",
+    "machine": "AMD64/64-bit",
+    "python": "CPython 3.12.x, exact patch/build UNKNOWN",
+    "numpy": "Used in a CPU-only path; exact version/build UNKNOWN",
+    "scipy": "1.18.1",
     "blas": "UNKNOWN",
     "cpu_thread_settings": "UNKNOWN",
-    "reason": "No contemporaneous version lock, interpreter capture, BLAS record, or thread-variable log was found in the original experiment artifacts."
+    "pytorch": "Not used",
+    "scikit_learn": "Not used",
+    "cuda": "Not used",
+    "gpu_acceleration": "Not used; physical GPU inventory UNKNOWN",
+    "reason": "Direct forensic evidence recovers the platform family, CPython minor version, SciPy version, and CPU-only NumPy path. No contemporaneous lock or record establishes the remaining exact fields. See audit/original_environment_evidence_20261014.md."
   },
   "verification_environment": {
     "operating_system": "Windows-11-10.0.26200-SP0",

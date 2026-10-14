@@ -97,20 +97,20 @@ Fresh rerun environment:
 
 All 20 runs completed in 77.89 seconds in an independent output directory. All test labels, class predictions, and metrics match the retained artifacts exactly. Floating probabilities differ by at most approximately 1e-15; checkpoint arrays differ by at most 8.72e-15; logged loss/history values differ by at most 4.45e-16. These are machine-precision differences and do not change any reported result.
 
-The fresh rerun establishes reproducibility in the recorded audit environment. It does not recover the historical software environment, which remains UNKNOWN.
+The fresh rerun establishes reproducibility in the recorded audit environment. Separate forensic recovery verifies Windows AMD64, CPython 3.12.x, a CPU-only NumPy path, and SciPy 1.18.1 for the original experiment; the exact Python patch, NumPy/BLAS build, Windows release/build, CPU model, RAM, and thread settings remain unknown.
 
 ## Reproducibility package completeness
 
 The archive contains configuration, portable training code, file/window manifests, checkpoints, prediction arrays, metrics, histories, statistical scripts, tests, reconstructed tables, final figures, an environment report, inventory, and SHA-256 list. It excludes the CWRU MAT files and gives official download locations and integrity hashes.
 
-The package does not claim a public URL or DOI. The author must upload the ZIP through the conference supplementary system or a real repository and update any venue metadata if required.
+The package is publicly available at https://github.com/x0130905/AT172-Bearing-Fault-Diagnosis-Reproducibility. Conference upload and venue metadata remain author-side administrative actions.
 
 ## Overall assessment
 
 - Artifact verification: **VERIFIED**.
 - Data isolation: **VERIFIED**.
 - Fresh rerun: **VERIFIED in the recorded audit environment**.
-- Historical environment provenance: **UNVERIFIABLE / UNKNOWN**.
-- Public accessibility: **MISSING pending author upload**.
-- Submission readiness: **Technically ready after the author uploads the supplied ZIP if the venue requires accessible supplementary materials**.
+- Historical environment provenance: **PARTIALLY VERIFIED**, with unresolved fields explicitly listed.
+- Public accessibility: **VERIFIED** at the repository URL above.
+- Submission readiness: **Technically ready**; conference upload, registration, payment, and copyright remain author-side actions.
 
