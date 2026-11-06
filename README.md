@@ -25,18 +25,26 @@ For the 2026-10-14 independent rerun, `audit/environment_verification_20261014.j
 
 ## Protocol
 
-- Official 12-kHz drive-end recordings.
+- Official drive-end recordings: normal files 97-100 at 48 kHz; fault files 105-108, 118-121, and 130-133 at 12 kHz.
 - Classes: normal, 0.007-inch inner race, ball, and centered outer-race faults.
 - File IDs: 97-100, 105-108, 118-121, and 130-133.
 - Source training: 0 hp and 1 hp.
 - Validation and checkpoint selection: 2 hp.
 - Unseen final test: 3 hp, evaluated only after training.
-- Per recording: first 80 non-overlapping windows of 1,024 samples.
+- Per recording: first 80 non-overlapping windows of 1,024 native samples, without resampling. A normal window spans approximately 21.33 ms; a fault window approximately 85.33 ms.
 - Per-window z-score normalization uses only that window.
 - Methods: ERM, CORAL, Mixup, linear MMD.
 - Seeds: 20260916, 20260917, 20260918, 42, 123.
 
 The 2-hp domain is a validation/model-selection domain. It is not the unseen 3-hp test domain. The experiment is source-only with respect to the final 3-hp target.
+
+## Native sampling rates and the historical configuration
+
+The historical `sampling_frequency_hz=12000` entries in `configs/experiment_config.json` and `src/experiment.py` are retained unchanged as provenance. They are not a valid blanket statement of the raw files' sampling rates and do not cause resampling. In the inspected code, that key is declared but not read by the loader. `de_signal` reads the original `DE_time` vector; `load_dataset` slices 1,024 native samples at a stride of 1,024 and then applies per-window z-score normalization. No resampling or equal-duration conversion is performed.
+
+Smith and Randall (2015), Table A1, identifies normal files 97-100 as 48 kHz; Table A2 identifies the selected fault files as 12 kHz. The durations are calculated as 1,024 / 48,000 and 1,024 / 12,000 seconds, respectively. These rates are sourced from the dataset reference tables, not inferred from the historical configuration or signal-vector length.
+
+This documentation correction changes no data, preprocessing operation, model, checkpoint, prediction, seed, reported score, or statistical test. It is not a new training run or an independent scientific reproduction. A future common-rate experiment would require a separately declared protocol and new results.
 
 ## Install
 
@@ -66,7 +74,7 @@ The command runs the integrity, domain-isolation, window-manifest, model/gradien
 
 The original vibration data are available from the [Case Western Reserve University Bearing Data Center](https://engineering.case.edu/bearingdatacenter). This repository does **not** redistribute the CWRU MAT files. Users must obtain them from the official source and comply with any terms stated by Case Western Reserve University.
 
-The required 12-kHz drive-end file identifiers are:
+The required native-rate drive-end file identifiers are (normal: 48 kHz; faults: 12 kHz):
 
 | Class | File IDs for 0, 1, 2, and 3 hp |
 |---|---|
@@ -75,7 +83,7 @@ The required 12-kHz drive-end file identifiers are:
 | Ball fault, 0.007 in | 118, 119, 120, 121 |
 | Centered outer-race fault, 0.007 in | 130, 131, 132, 133 |
 
-The exact filenames, official download URLs, byte counts, and SHA-256 hashes are recorded in `data_manifests/dataset_manifest.csv`.
+The exact filenames, official download URLs, byte counts, and SHA-256 hashes are recorded in `data_manifests/dataset_manifest.csv`. That frozen manifest is unchanged. The additive `data_manifests/sampling_rate_metadata.csv` documents the source rates and derived physical window durations for the same 16 files; see `data_manifests/SAMPLING_RATE_NOTE.md` for provenance.
 
 Official data pages:
 
@@ -147,7 +155,7 @@ The completed 2026-10-14 fresh rerun is retained under `audit/fresh_rerun_202610
 
 ## Important random-order note
 
-All methods use identical seed-specific initial parameters. ERM, CORAL, and linear MMD also use identical source permutations. In the retained implementation, Mixup uses the same seeded generator for source permutations and its additional Beta/interpolation draws; these extra draws change later source permutations. The package preserves this behavior so the retained experiment can be reproduced exactly.
+All methods use identical seed-specific initial parameters. ERM, CORAL, and linear MMD also use identical source permutations. In the retained implementation, Mixup uses the same seeded generator for source permutations and its additional Beta/interpolation draws; these extra draws change later source permutations. The package preserves this behavior so the retained experiment can be reproduced exactly. Consequently, the Mixup comparison couples interpolation training with later source-order changes; the retained results do not separate their effects.
 
 ## Directory guide
 
@@ -166,6 +174,7 @@ All methods use identical seed-specific initial parameters. ERM, CORAL, and line
 - Historical evidence verifies Windows AMD64, CPython 3.12.x, a CPU-only NumPy execution path, and SciPy 1.18.1. The exact Python patch, NumPy/BLAS build, Windows release/build, CPU model, RAM, thread settings, and dependency lock file are **UNKNOWN**.
 - The audit fresh rerun was performed with CPython 3.12, NumPy 2.5.3, SciPy 1.18.1, and Pillow 12.3.0. The captured software and hardware disclosure is in `audit/environment_verification_20261014.json`; the earlier `audit/environment_report.json` remains as a separate pre-release audit record.
 - The audit fresh rerun is recorded separately from artifact verification and must not be interpreted as recovery of unresolved historical details.
+- Class is associated with native sampling rate and physical window duration, a potential confound. Its effect has not been independently quantified. Normal-state recognition cannot be attributed solely to fault-related physical features. Whether the model exploits this association was not tested.
 - The evaluation covers one laboratory dataset, one seeded-fault diameter, four closed-set classes, one sensor channel, one held-out load, and five random seeds. It does not establish industrial field reliability or a universal ranking of domain-generalization methods.
 - Reproducing the reported protocol requires the exact official files listed in `data_manifests/dataset_manifest.csv`, successful hash verification, the fixed configuration, and all five declared seeds. Artifact verification alone is not a substitute for retraining.
 - This controlled CWRU result does not validate latency, energy use, streaming behavior, open-set faults, sensor degradation, cross-machine transfer, or safety-critical industrial deployment.

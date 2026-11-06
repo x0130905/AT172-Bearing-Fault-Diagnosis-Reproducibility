@@ -1,5 +1,7 @@
 # AT172 Reproducibility Audit
 
+Documentation clarification added 2026-11-06: the dated audit below is retained as a historical record. Selected normal files are native 48 kHz, selected fault files are 12 kHz, and the loader does not resample. Class-associated sampling rate/window duration is an unquantified potential confound. See [the sampling-rate correction](../data_manifests/SAMPLING_RATE_NOTE.md) and [this documentation release record](sampling_rate_documentation_release_20261106.md). Earlier verification and rerun claims below are not new checks performed for this documentation update.
+
 Audit date: 2026-10-13  
 Paper: Evaluating Lightweight Source-Only Domain Generalization for Bearing Fault Diagnosis under Unseen Operating Conditions
 
